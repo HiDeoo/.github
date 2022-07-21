@@ -1,0 +1,54 @@
+name: Bug report
+description: Report an issue.
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for filing an issue 😄 !
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: When using this specific feature, the application crashes.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior. If you can, please provide a [Minimal and Reproducible example](https://stackoverflow.com/help/minimal-reproducible-example).
+      placeholder: |
+        1. Go to '…'
+        2. Click on '…'
+        3. Scroll down to '…'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: Using this specific feature should to the thing.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: How often does this bug happen?
+      description: How easily can you reproduce this bug?
+      options:
+        - Every time
+        - Often
+        - Sometimes
+        - Only once
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: System Info
+      description: Add any relevant system informations here, such as the operating system, the browser, the version, etc.
+      placeholder: |
+        - Operating System: macOS 12.4
+        - Browser: Chrome
+        - Version: v2.1.0
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots about your issue.
