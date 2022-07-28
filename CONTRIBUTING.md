@@ -22,7 +22,7 @@ Thank you for creating them. Please provide as much details as possible, includi
 
 When opening a new issue, a template will be provided to you to guide you through collecting the information needed. If you find an issue already addressing the problem you're having, please add your own reproduction informations to the existing issue rather than creating a new one. Adding [a reaction](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) can also help be indicating that a particular problem is affecting more than just the reporter.
 
-If you find a security vulnerability, do NOT open an issue. Email hideoo.github@proton.me instead.
+If you find a security vulnerability, do NOT open an issue. Email github@hideoo.dev instead.
 
 ## Pull Requests
 
