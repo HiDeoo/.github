@@ -26,7 +26,7 @@ body:
     attributes:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
-      placeholder: Using this specific feature should to the thing.
+      placeholder: Using this specific feature should do the thing.
     validations:
       required: true
   - type: dropdown
